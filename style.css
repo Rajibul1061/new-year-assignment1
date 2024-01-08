@@ -89,5 +89,120 @@ main .container .holiday-deals h2 {
 main .container .holiday-deals img {
   width: 802.9px;
   height: 500px;
+}
+
+/* portfolio*/
+
+.portfolio {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 140px;
+}
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.para-b {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.para-s {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main .newsletter {
+  text-align: center;
+  margin: 120px auto;
+  width: 1320px;
+  height: 616px;
   flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+main .newsletter .container .newsletterContainer img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  margin-top: 60px;
+}
+
+main .newsletter .container .newsletterContainer h2 {
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 40px 0px 22px 0px;
+}
+
+main .newsletter .container .newsletterContainer p {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0px auto 48px auto;
+}
+
+main .newsletter .container .newsletterContainer .emailSubscribe {
+  display: flex;
+  width: 648px;
+  margin: auto;
+}
+
+main .newsletter .container .newsletterContainer .emailSubscribe input {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  border: #fff;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: left;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 20px 0px 20px;
+}
+
+main .newsletter .container .newsletterContainer .emailSubscribe button {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  transform: translate(-210px, 0px);
 }
