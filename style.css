@@ -90,25 +90,27 @@
   width: 802.9px;
   height: 500px;
 }
+
 /* party section */
-main .Welcome {
+
+.party {
   width: 1320px;
   height: 600px;
   flex-shrink: 0;
   border-radius: 16px;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../images/Vectorrr.png");
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./images/Vectorrr.png");
   background-repeat: no-repeat;
   margin: 120px auto;
   display: flex;
   align-items: center;
 }
 
-main .Welcome .container {
+main .party .container {
   display: flex;
   align-items: center;
 }
-.WelcomeSection {
+.partysection {
   margin-left: 140px;
 }
 
@@ -149,11 +151,9 @@ main .Welcome .container {
 }
 
 /* portfolio*/
-
 .portfolio {
-  display: flex;
-  margin-top: 70px;
-  margin-left: 140px;
+  width: 1320px;
+  margin: auto;
 }
 .gift-title {
   color: #f00;
@@ -263,4 +263,97 @@ main .Welcome .container {
   line-height: normal;
   text-transform: capitalize;
   transform: translate(-210px, 0px);
+}
+/* footer */
+footer {
+  background-color: #070211;
+  color: #fff;
+  height: 609px;
+  flex-shrink: 0;
+}
+
+.upperFooterContainer {
+  display: flex;
+  padding-top: 120px;
+  justify-content: space-between;
+  margin: 0px 0px 50px 0px;
+}
+
+.upperFooterContainer .leftUpperFooter p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.rightUpperFooter .callerIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rightUpperFooter .callerIcon p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.callerIcon img {
+  height: 30px;
+  width: 30px;
+}
+
+.rightUpperFooter .webIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.webIcon p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.webIcon img {
+  height: 30px;
+  width: 30px;
+}
+
+.midFooterContainer .icons {
+  width: fit-content;
+  margin: 48px auto;
+}
+
+.lowerFooterContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftLowerFooterContainer p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.rightLowerFooterContainer p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
 }
