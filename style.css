@@ -196,14 +196,14 @@ main .Welcome .container {
   background: rgba(255, 0, 0, 0.05);
 }
 
-.newsletter .container .newsletterContent img {
+.newsletterContent img {
   width: 150px;
   height: 150px;
   flex-shrink: 0;
   margin-top: 60px;
 }
 
-.newsletter .container .newsletterContent h2 {
+.newsletterContent h2 {
   color: #070211;
   font-size: 48px;
   font-style: normal;
@@ -213,7 +213,7 @@ main .Welcome .container {
   margin: 40px 0px 22px 0px;
 }
 
-.newsletter .container .newsletterContent p {
+.newsletterContent p {
   width: 896px;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
@@ -224,13 +224,13 @@ main .Welcome .container {
   margin: 0px auto 48px auto;
 }
 
-.newsletter .container .newsletterContent .Subscribe {
+.newsletterContent .Subscribe {
   display: flex;
   width: 648px;
   margin: auto;
 }
 
-.newsletter .container .newsletterContent .Subscribe input {
+.newsletterContent .Subscribe input {
   width: 648px;
   height: 72px;
   flex-shrink: 0;
@@ -247,7 +247,7 @@ main .Welcome .container {
   padding: 0px 20px 0px 20px;
 }
 
-.newsletter .container .newsletterContent .Subscribe button {
+.newsletterContent .Subscribe button {
   width: 210px;
   height: 72px;
   flex-shrink: 0;
